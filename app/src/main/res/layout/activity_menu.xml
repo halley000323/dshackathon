@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MenuActivity">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/menu" />
+
+    <Button
+        android:id="@+id/back"
+        android:layout_width="50dp"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="280dp"
+        android:background="@android:color/transparent" />
+
+    <Button
+        android:id="@+id/mypage"
+        android:layout_width="100dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="160dp"
+        android:layout_marginTop="155dp"
+        android:background="@android:color/transparent" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/ranking_menu"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:src="@drawable/menu_rank"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_marginTop="9dp"
+            android:id="@+id/donation_menu"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:src="@drawable/menu_don"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_marginTop="9dp"
+            android:id="@+id/trashcan_menu"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:src="@drawable/menu_rank"
+            android:background="@android:color/transparent"/>
+
+        <Button
+            android:layout_marginTop="9dp"
+            android:id="@+id/challenge_menu"
+            android:layout_width="330dp"
+            android:layout_height="70dp"
+            android:src="@drawable/menu_chall"
+            android:background="@android:color/transparent"/>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DSLoginActivity">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="272dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="200dp"
+        android:ems="10"
+        android:hint="학과"
+        android:spinnerMode="dropdown"
+        android:textStyle="bold"></Spinner>
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/login" />
+
+    <EditText
+        android:id="@+id/id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:hint="학번 8자리 입력"
+        android:inputType="textShortMessage" />
+
+    <EditText
+        android:id="@+id/pw"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="345dp"
+        android:ems="10"
+        android:inputType="textVisiblePassword"
+        android:hint="비밀번호 입력"/>
+
+    <Button
+        android:id="@+id/start_login"
+        android:layout_width="400dp"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="450dp"
+        android:background="@android:color/transparent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="220dp"
+        android:text="Hello"
+        android:textSize="18sp" />
+
+</RelativeLayout>
